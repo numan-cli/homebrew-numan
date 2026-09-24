@@ -6,7 +6,7 @@ via two reusable workflows pinned to the floating `v1` tag.
 ## Workflows
 
 - `.github/workflows/opencode-review.yml` posts an incremental review on every
-  PR open, reopen, synchronize, and ready-for-review. Findings arrive as
+  same-repository, non-draft PR open, reopen, synchronize, and ready-for-review. Findings arrive as
   individually resolvable inline threads plus one canonical summary comment.
 - `.github/workflows/opencode.yml` answers `/oc` (or `/opencode`) comments on
   PRs and issues, and accepts ad-hoc prompts via **Actions > OpenCode > Run
