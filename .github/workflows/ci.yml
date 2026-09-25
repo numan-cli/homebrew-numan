@@ -40,5 +40,5 @@ jobs:
           set -euo pipefail
           # Homebrew rejects absolute Formula paths; install via the tap name.
           brew install --verbose tonythethompson/numan/numan
-          brew test numan
+          brew test tonythethompson/numan/numan
           numan --version
